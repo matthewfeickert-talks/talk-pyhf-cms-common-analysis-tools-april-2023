@@ -6,13 +6,13 @@ count: false
 <br>
 
 .huge.blue[Matthew Feickert]<br>
-.huge[(University of Illinois at Urbana-Champaign)]
+.huge[(University of Wisconsin-Madison)]
 <br><br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[CMS Analysis Tools Task Force Meeting](https://indico.cern.ch/event/1100873/contributions/4631656/)
+[CMS Common Analysis Tools General Meeting](https://indico.cern.ch/event/1264029/)
 
-December 1st, 2021
+April 12th, 2023
 
 ---
 # `pyhf` team
@@ -21,25 +21,25 @@ December 1st, 2021
 
 .grid[
 .kol-1-3.center[
-.circle.width-80[![Lukas](figures/collaborators/heinrich.jpg)]
+.circle.width-80[![Lukas](figures/collaborators/heinrich.png)]
 
 [Lukas Heinrich](https://github.com/lukasheinrich)
 
-CERN
+Technical University of Munich
 ]
 .kol-1-3.center[
 .circle.width-80[![Matthew](https://avatars2.githubusercontent.com/u/5142394)]
 
 [Matthew Feickert](https://www.matthewfeickert.com/)
 
-Illinois
+University of Wisconsin-Madison
 ]
 .kol-1-3.center[
-.circle.width-75[![Giordon](figures/collaborators/stark.png)]
+.circle.width-75[![Giordon](figures/collaborators/stark.jpg)]
 
 [Giordon Stark](https://github.com/kratsg)
 
-UCSC SCIPP
+University of California Santa Cruz SCIPP
 ]
 ]
 <br>
