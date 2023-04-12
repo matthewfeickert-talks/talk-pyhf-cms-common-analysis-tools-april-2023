@@ -383,10 +383,13 @@ model = workspace.model(patches=[patchset["C1N2_Wh_hbb_900_250"]])
 
 test_pois = np.linspace(0, 5, 41)  # POI step of 0.125
 data = workspace.data(model)
-obs_limit, exp_limits, (test_pois, results) = pyhf.infer.intervals.upperlimit(
+(
+    obs_limit,
+    exp_limits,
+    (test_pois, results),
+) = pyhf.infer.intervals.upper_limits.upper_limit(
     data, model, test_pois, return_results=True
 )
-
 print(f"Observed limit: {obs_limit}")
 # Observed limit: 2.547958147632675
 print(f"Expected limits: {[limit.tolist() for limit in exp_limits]}")
