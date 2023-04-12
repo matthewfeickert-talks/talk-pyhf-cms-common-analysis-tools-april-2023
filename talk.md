@@ -333,7 +333,7 @@ $$
 
 .smaller[
 ```console
-$ python -m pip install pyhf[jax,contrib]
+$ python -m pip install 'pyhf[jax,contrib]'
 $ pyhf contrib download https://doi.org/10.17182/hepdata.90607.v3/r3 1Lbb-pallet
 ```
 ```python
@@ -455,6 +455,75 @@ cabinetry.visualize.data_mc(postfit_model, data)
    - c.f. demonstration at [IRIS-HEP Analysis Grand Challenge Tools Workshop 2021](https://indico.cern.ch/event/1076231/contributions/4560405/)
 - .large[Accelerating fitting (reducing time to .bold[insight] (statistical inference)!)] (`pyhf` + `cabinetry`)
 - .large[An enabling technology for .bold[reinterpretation]] (`pyhf` + RECAST)
+
+---
+# Browser native ecosystem
+
+.center.width-100[
+<iframe
+   src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1&code=import%20piplite%0Aawait%20piplite.install%28%5B%22pyhf%3D%3D0.7.1%22%2C%20%22matplotlib%22%5D%29%0A%25matplotlib%20inline%0Aimport%20pyhf"
+   width="100%"
+   height="500px"
+></iframe>
+]
+
+.center[[Pyodide](https://pyodide.org/en/stable/) CPython port to WebAssembly/Emscripten powering [JupyterLite](https://jupyterlite.readthedocs.io/) kernel]
+
+---
+# Browser native ecosystem
+
+.center.width-100[![jupyterlite-piplite-install](figures/jupyterlite-piplite-install.png)]
+
+.center[[Pyodide](https://pyodide.org/en/stable/) CPython port to WebAssembly/Emscripten powering [JupyterLite](https://jupyterlite.readthedocs.io/) kernel]
+
+---
+# Browser native ecosystem
+
+.center.width-100[![jupyterlite-before-eval](figures/jupyterlite-before-eval.png)]
+
+.center[[Pyodide](https://pyodide.org/en/stable/) CPython port to WebAssembly/Emscripten powering [JupyterLite](https://jupyterlite.readthedocs.io/) kernel]
+
+---
+# Browser native ecosystem
+
+.center.width-100[![jupyterlite-upper-limit-plot](figures/jupyterlite-upper-limit-plot.png)]
+
+.center[[Pyodide](https://pyodide.org/en/stable/) CPython port to WebAssembly/Emscripten powering [JupyterLite](https://jupyterlite.readthedocs.io/) kernel]
+
+---
+# Enabling full web apps with PyScript
+
+.center.width-55[[![try-pyhf](figures/try-pyhf-inspect.png)](https://kratsg.github.io/try-pyhf/)]
+<!--  -->
+.center[Future software/statistics training, web applications, schemea validation enabled with [Pyodide](https://pyodide.org/en/stable/) and [PyScript](https://pyscript.net/)]
+
+---
+# Enabling full web apps with PyScript
+
+.center.width-55[[![try-pyhf](figures/try-pyhf-compute.png)](https://kratsg.github.io/try-pyhf/)]
+<!--  -->
+.center[Future software/statistics training, web applications, schemea validation enabled with [Pyodide](https://pyodide.org/en/stable/) and [PyScript](https://pyscript.net/)]
+
+---
+# Enabling full web apps with PyScript
+
+.center.width-55[[![try-pyhf](figures/try-pyhf-plot.png)](https://kratsg.github.io/try-pyhf/)]
+<!--  -->
+.center[Future software/statistics training, web applications, schemea validation enabled with [Pyodide](https://pyodide.org/en/stable/) and [PyScript](https://pyscript.net/)]
+
+---
+# HEPData support for HistFactory JSON and more
+
+.kol-2-7[
+<br><br><br><br><br><br><br>
+.center.width-100[[![hepdata-histfactory-tweet](figures/hepdata-histfactory-tweet.png)](https://twitter.com/HEPData/status/1529038702344798212)]
+]
+.kol-5-7[
+<br>
+.center.width-100[[![hepdata-histfactory-badge](figures/hepdata-histfactory-badge.png)](https://www.hepdata.net/search/?q=analysis:HistFactory)]
+]
+
+.center[Published HistFactory probability models get own DOI (future: model render, interactivity)]
 
 ---
 # Call to action: pyhf and Combine interoperability
