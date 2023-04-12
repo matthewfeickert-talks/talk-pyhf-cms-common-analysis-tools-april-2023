@@ -208,7 +208,7 @@ $$
 - Open source tool for all of HEP
    - [IRIS-HEP](https://iris-hep.org/projects/pyhf.html) supported Scikit-HEP project
    - Used in ATLAS SUSY, Exotics, and Top groups in [24 published analyses](https://scikit-hep.org/pyhf/citations.html#published-statistical-models) (inference and published models)
-   - Used by Belle II<br>(DOI: [10.1103/PhysRevLett.127.181802](https://inspirehep.net/literature/1860766)) and [MicroBooNE](https://indico.cern.ch/event/1261135/contributions/5333609/)
+   - Used by Belle II<br>(DOI: [10.1103/PhysRevLett.127.181802](https://inspirehep.net/literature/1860766)) and MicroBooNE ([upcoming results](https://indico.cern.ch/event/1261135/contributions/5333609/))
    - Used in [analyses and for reinterpretation](https://scikit-hep.org/pyhf/citations.html#use-citations) by phenomenology community, `SModelS` <br>(DOI: [10.1016/j.cpc.2021.107909](https://inspirehep.net/literature/1814793)), and `MadAnalysis 5` ([arXiv:2206.14870](https://inspirehep.net/literature/2103971))
    - Keen to .bold[make a bridge to CMS]!
    - 2022 [IRIS-HEP supported Fellow](https://iris-hep.org/fellows/peterridolfi.html) worked on conversion support to CMS Combine
@@ -591,7 +591,8 @@ Fun fact! It was Lindsey Gray who first asked about this possibility when Matthe
    - Unifying tool for theoretical and experimental physicists
 - .large[Project in growing .bold[Pythonic HEP ecosystem]]
    - [Openly developed on GitHub](https://github.com/scikit-hep/pyhf) and welcome contributions
-   - [Comprehensive open tutorials](https://pyhf.github.io/pyhf-tutorial/)
+   - [Comprehensive open user guides](https://pyhf.github.io/pyhf-tutorial/)
+   - [NumFOCUS Affiliated Project](https://numfocus.org/sponsored-projects/affiliated-projects) committed to scientific open source
    - Ask us about Scikit-HEP and IRIS-HEP!
 ]
 .kol-1-3[
