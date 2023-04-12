@@ -7,7 +7,7 @@ count: false
 <br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
-[CMS Common Analysis Tools General Meeting](https://indico.cern.ch/event/1264029/)
+[CMS Common Analysis Tools General Meeting](https://indico.cern.ch/event/1264029/contributions/5308065/)
 
 April 12th, 2023
 
