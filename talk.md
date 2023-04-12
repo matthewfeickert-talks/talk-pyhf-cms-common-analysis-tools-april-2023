@@ -316,7 +316,8 @@ $$
 .kol-1-3[
 <br>
 - .bold[pyhf] focuses on the modeling (library not a framework)
-- Leverage the design of the .bold[Scikit-HEP ecosystem] and close communication between pyhf dev team and cabinetry lead dev Alexander Held
+- Leverage the design of the .bold[Scikit-HEP ecosystem] and close communication between pyhf dev team and cabinetry lead dev .bold[Alexander Held]
+   - c.f. [Alexander's talk today](https://indico.cern.ch/event/1264029/#3-cabinetry)
 - .bold[cabinetry] designs & steers template profile likelihood fits
 - Uses pyhf as the inference engine
 - Provides common visualization for inference validation
@@ -325,7 +326,7 @@ $$
 .center.width-50[[![cabinetry_logo](figures/cabinetry_logo_small.png)](https://github.com/scikit-hep/cabinetry)]
 .center.width-100[[![cabinetry_plots](figures/cabinetry_plots.png)](https://indico.cern.ch/event/1056428/contributions/4523825/)]
 
-.center[Alex Held, [ATLAS SUSY Workshop 2021](https://indico.cern.ch/event/1056428/contributions/4523825/)]
+.center[Alexander Held, [ATLAS SUSY Workshop 2021](https://indico.cern.ch/event/1056428/contributions/4523825/)]
 ]
 
 ---
