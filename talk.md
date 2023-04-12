@@ -2,17 +2,16 @@ class: middle, center, title-slide
 count: false
 
 # `pyhf`: pure-Python implementation of HistFactory with tensors and automatic differentiation
-
+.large.blue[Matthew Feickert]<br>
+.large[(University of Wisconsin-Madison)]
 <br>
-
-.huge.blue[Matthew Feickert]<br>
-.huge[(University of Wisconsin-Madison)]
-<br><br>
 [matthew.feickert@cern.ch](mailto:matthew.feickert@cern.ch)
 
 [CMS Common Analysis Tools General Meeting](https://indico.cern.ch/event/1264029/)
 
 April 12th, 2023
+
+.middle-logo[]
 
 ---
 # `pyhf` team

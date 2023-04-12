@@ -428,11 +428,11 @@ td {
     content: '';
     background: url("https://iris-hep.org/assets/logos/pyhf-logo.png") no-repeat;
     background-size: 100% 100%;
-    width: 256px;
-    height: 173px;
+    width: 179px;
+    height: 121px;
     position: absolute;
     bottom: 0.8em;
-    left: 24em;
+    left: 25em;
     display: inline-block;
 }
 
