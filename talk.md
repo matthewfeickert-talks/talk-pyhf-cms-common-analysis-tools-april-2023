@@ -308,6 +308,38 @@ $$
 .width-95[[![community-adoption](figures/community-adoption.svg)](https://scikit-hep.org/pyhf/citations.html)]
 ]
 
+---
+# HEPData support for HistFactory JSON and more
+
+.kol-2-7[
+<br><br><br><br><br><br><br>
+.center.width-100[[![hepdata-histfactory-tweet](figures/hepdata-histfactory-tweet.png)](https://twitter.com/HEPData/status/1529038702344798212)]
+]
+.kol-5-7[
+<br>
+.center.width-100[[![hepdata-histfactory-badge](figures/hepdata-histfactory-badge.png)](https://www.hepdata.net/search/?q=analysis:HistFactory)]
+]
+
+.center[Published HistFactory probability models get own DOI (future: model render, interactivity)]
+
+---
+# Extending model portability with HS3
+
+.kol-3-5.large[
+* [High Energy Physics Statistics Serialization Standard](https://github.com/hep-statistics-serialization-standard/hep-fit-serialization) (HS3)
+   - Make statistical models: persistent, interchangeable, modifiable, readable
+* Goal: Generalize the pyhf JSON model spec to a (RooWorkspace) feature complete specification
+   - Work being lead by Carsten Burgard (ATLAS, RooFit)
+* HS3 spec would support RooFit, pyhf, BAT (Julia), and others
+   - Write once, run anywhere
+   - Draft v0.2 currently under discussion
+   - pyhf: Aim for adoption by December, 2023
+]
+.kol-2-5[
+.center.width-90[[![hs3-spec-view](figures/hs3-spec-view.png)](https://indico.cern.ch/event/1197680/timetable/#44-high-energy-physics-statist)]
+
+.center[Carsten Burgard, [Reinterpretation Forum 2022](https://indico.cern.ch/event/1197680/timetable/#44-high-energy-physics-statist)]
+]
 
 ---
 # Extending and visualization: cabinetry
@@ -546,20 +578,6 @@ Fun fact! It was Lindsey Gray who first asked about this possibility when Matthe
 .center.width-55[[![try-pyhf](figures/try-pyhf-plot.png)](https://kratsg.github.io/try-pyhf/)]
 <!--  -->
 .center[Future software/statistics training, web applications, schemea validation enabled with [Pyodide](https://pyodide.org/en/stable/) and [PyScript](https://pyscript.net/)]
-
----
-# HEPData support for HistFactory JSON and more
-
-.kol-2-7[
-<br><br><br><br><br><br><br>
-.center.width-100[[![hepdata-histfactory-tweet](figures/hepdata-histfactory-tweet.png)](https://twitter.com/HEPData/status/1529038702344798212)]
-]
-.kol-5-7[
-<br>
-.center.width-100[[![hepdata-histfactory-badge](figures/hepdata-histfactory-badge.png)](https://www.hepdata.net/search/?q=analysis:HistFactory)]
-]
-
-.center[Published HistFactory probability models get own DOI (future: model render, interactivity)]
 
 ---
 # Summary
