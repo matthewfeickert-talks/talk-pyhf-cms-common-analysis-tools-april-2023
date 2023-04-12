@@ -580,6 +580,40 @@ Fun fact! It was Lindsey Gray who first asked about this possibility when Matthe
 .center[Future software/statistics training, web applications, schemea validation enabled with [Pyodide](https://pyodide.org/en/stable/) and [PyScript](https://pyscript.net/)]
 
 ---
+# Are there CMS problems pyhf can help with?
+
+.grid[
+.kol-1-3.center[
+.width-80[[![IRIS-HEP](assets/logos/logo_IRIS-HEP.png)](https://iris-hep.org/)]
+]
+.kol-1-3.center[
+<!--  -->
+]
+.kol-1-3.center[
+.width-80[[![ATLAS](assets/logos/logo_ATLAS.png)](https://atlas.cern/)]
+]
+]
+<!--  -->
+.grid[
+.kol-1-1.center[
+.width-12[[![CMS](figures/logos/cms_logo.png)](https://cms.cern/)]
+]
+]
+<!--  -->
+.grid[
+.kol-1-3.center[
+.width-50[[![Belle II](figures/logos/belle2_logo.png)](https://www.belle2.org/)]
+]
+.kol-1-3.center[
+<!--  -->
+]
+.kol-1-3.center[
+<br>
+.width-100[[![MicroBooNE](figures/logos/microboone_logo.png)](https://microboone.fnal.gov/)]
+]
+]
+
+---
 # Summary
 .kol-2-3[
 - .large[.bold[Accelerated] fitting library]
