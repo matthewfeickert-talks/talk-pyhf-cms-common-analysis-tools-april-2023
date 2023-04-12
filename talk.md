@@ -211,7 +211,7 @@ $$
    - Used in [analyses and for reinterpretation](https://scikit-hep.org/pyhf/citations.html#use-citations) by phenomenology community, `SModelS` <br>(DOI: [10.1016/j.cpc.2021.107909](https://inspirehep.net/literature/1814793)), and `MadAnalysis 5` ([arXiv:2206.14870](https://inspirehep.net/literature/2103971))
    - Keen to .bold[make a bridge to CMS]!
    - 2022 [IRIS-HEP supported Fellow](https://iris-hep.org/fellows/peterridolfi.html) worked on conversion support to CMS Combine
-      - (See also [Kirill's talk today](https://indico.cern.ch/event/1264029/#4-pyhf-combine))
+      - (See also [Kirill's talk today](https://indico.cern.ch/event/1264029/contributions/5308067/))
 ]
 
 ---
@@ -500,7 +500,7 @@ cabinetry.visualize.data_mc(postfit_model, data)
    - First pass implementation from 2022 IRIS-HEP Fellow project ([`pyhf-combine-converter`](https://iris-hep.org/fellows/peterridolfi.html))
 - ...or, what is needed in a HistFactory v2 spec to be an acceptable alternative or compliment to Combine?
 - The pyhf dev team wants to work to make this happen!
-- Save discussion for after [Kirill's talk today](https://indico.cern.ch/event/1264029/#4-pyhf-combine)
+- Save discussion for after [Kirill's talk today](https://indico.cern.ch/event/1264029/contributions/5308067/)
 ]
 .kol-2-3[
 .center.width-100[[![combine_github_issue](figures/combine_github_issue.png)](https://github.com/scikit-hep/pyhf/issues/344)]
