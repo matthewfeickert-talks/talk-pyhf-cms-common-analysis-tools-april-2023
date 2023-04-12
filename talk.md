@@ -580,7 +580,32 @@ Fun fact! It was Lindsey Gray who first asked about this possibility when Matthe
 .center[Future software/statistics training, web applications, schemea validation enabled with [Pyodide](https://pyodide.org/en/stable/) and [PyScript](https://pyscript.net/)]
 
 ---
-# Are there CMS problems pyhf can help with?
+# Summary
+.kol-2-3[
+- .large[.bold[Accelerated] fitting library]
+   - reducing time to insight/inference!
+   - Hardware acceleration on GPUs and vectorized operations
+   - Backend agnostic Python API and CLI
+- .large[Flexible .bold[declarative] schema]
+   - JSON: ubiquitous, universal support, versionable
+- .large[Enabling technology for .bold[reinterpretation]]
+   - JSON Patch files for efficient computation of new signal models
+   - Unifying tool for theoretical and experimental physicists
+- .large[Project in growing .bold[Pythonic HEP ecosystem]]
+   - [Openly developed on GitHub](https://github.com/scikit-hep/pyhf) and welcome contributions
+   - [Comprehensive open user guides](https://pyhf.github.io/pyhf-tutorial/)
+   - [NumFOCUS Affiliated Project](https://numfocus.org/sponsored-projects/affiliated-projects) committed to scientific open source
+   - Ask us about Scikit-HEP and IRIS-HEP!
+]
+.kol-1-3[
+<br>
+<br>
+<br>
+.center.width-100[[![pyhf_logo](https://iris-hep.org/assets/logos/pyhf-logo.png)](https://github.com/scikit-hep/pyhf)]
+]
+
+---
+# Is pyhf a good fit for you?
 
 .grid[
 .kol-1-3.center[
@@ -611,31 +636,6 @@ Fun fact! It was Lindsey Gray who first asked about this possibility when Matthe
 <br>
 .width-100[[![MicroBooNE](figures/logos/microboone_logo.png)](https://microboone.fnal.gov/)]
 ]
-]
-
----
-# Summary
-.kol-2-3[
-- .large[.bold[Accelerated] fitting library]
-   - reducing time to insight/inference!
-   - Hardware acceleration on GPUs and vectorized operations
-   - Backend agnostic Python API and CLI
-- .large[Flexible .bold[declarative] schema]
-   - JSON: ubiquitous, universal support, versionable
-- .large[Enabling technology for .bold[reinterpretation]]
-   - JSON Patch files for efficient computation of new signal models
-   - Unifying tool for theoretical and experimental physicists
-- .large[Project in growing .bold[Pythonic HEP ecosystem]]
-   - [Openly developed on GitHub](https://github.com/scikit-hep/pyhf) and welcome contributions
-   - [Comprehensive open user guides](https://pyhf.github.io/pyhf-tutorial/)
-   - [NumFOCUS Affiliated Project](https://numfocus.org/sponsored-projects/affiliated-projects) committed to scientific open source
-   - Ask us about Scikit-HEP and IRIS-HEP!
-]
-.kol-1-3[
-<br>
-<br>
-<br>
-.center.width-100[[![pyhf_logo](https://iris-hep.org/assets/logos/pyhf-logo.png)](https://github.com/scikit-hep/pyhf)]
 ]
 
 ---
