@@ -190,29 +190,28 @@ $$
 .center[.bold[This is a _mathematical_ representation!] Nowhere is any software spec defined]
 .center[.bold[Until 2018] the only implementation of HistFactory has been in [`ROOT`](https://root.cern.ch/)]
 
-.center.width-70[[![ROOT_HistFactory](figures/ROOT_HistFactory.png)](https://root.cern/doc/v624/group__HistFactory.html)]
-
+.center.width-70[[![ROOT_HistFactory](figures/ROOT_HistFactory.png)](https://root.cern/doc/v628/group__HistFactory.html)]
 
 ---
 # `pyhf`: HistFactory in pure Python
 <!--  -->
-.kol-1-2[
+.kol-1-2.large[
 - First non-ROOT implementation of the HistFactory p.d.f. template
-   - .width-40[[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1169739.svg)](https://doi.org/10.5281/zenodo.1169739)]
+   - .width-40[[![DOI](figures/zenodo.1169739.svg)](https://doi.org/10.5281/zenodo.1169739)]
 - pure-Python library as second implementation of HistFactory
   - [`$ python -m pip install pyhf`](https://scikit-hep.org/pyhf/installation.html#install-from-pypi)
   - No dependence on ROOT!
+
+.center.width-100[[![pyhf_PyPI](figures/pyhf_PyPI.png)](https://pypi.org/project/pyhf/)]
+]
+.kol-1-2.large[
 - Open source tool for all of HEP
    - [IRIS-HEP](https://iris-hep.org/projects/pyhf.html) supported Scikit-HEP project
-   - Used in ATLAS SUSY, Exotics, and Top groups in [24 published analyses](https://scikit-hep.org/pyhf/citations.html#published-statistical-models)
-   - Used by Belle II (DOI: [10.1103/PhysRevLett.127.181802](https://inspirehep.net/literature/1860766))
-   - Used for reinterpretation in phenomenology paper (DOI: [10.1007/JHEP04(2019)144](https://inspirehep.net/record/1698425)) and `SModelS` <br>(DOI: [10.1016/j.cpc.2021.107909](https://inspirehep.net/literature/1814793))
-   - Keen to make a bridge to CMS!
-]
-.kol-1-2[
-<br><br>
-.center.width-100[[![pyhf_PyPI](figures/pyhf_PyPI.png)](https://pypi.org/project/pyhf/)]
-.center.width-60[[![pyhf_logo](https://iris-hep.org/assets/logos/pyhf-logo.png)](https://scikit-hep.org/pyhf/)]
+   - Used in ATLAS SUSY, Exotics, and Top groups in [24 published analyses](https://scikit-hep.org/pyhf/citations.html#published-statistical-models) (inference and published models)
+   - Used by Belle II<br>(DOI: [10.1103/PhysRevLett.127.181802](https://inspirehep.net/literature/1860766))
+   - Used in [analyses and for reinterpretation](https://scikit-hep.org/pyhf/citations.html#use-citations) by phenomenology community, `SModelS` <br>(DOI: [10.1016/j.cpc.2021.107909](https://inspirehep.net/literature/1814793)), and `MadAnalysis 5` ([arXiv:2206.14870](https://inspirehep.net/literature/2103971))
+   - Keen to .bold[make a bridge to CMS]!
+   - 2022 [IRIS-HEP supported Fellow](https://iris-hep.org/fellows/peterridolfi.html) worked on conversion support to CMS Combine (See also [Krill's talk today](https://indico.cern.ch/event/1264029/#4-pyhf-combine))
 ]
 
 ---
@@ -225,13 +224,13 @@ $$
 - As huge buy in from industry we benefit for free as these frameworks are .bold[continually improved] by professional software engineers (physicists are not)
 
 .kol-1-2.center[
-.width-90[![scaling_hardware](figures/scaling_hardware_annotated.png)]
+.width-80[![scaling_hardware](figures/scaling_hardware_annotated.png)]
 ]
 .kol-1-2[
-<br>
-- Show hardware acceleration giving .bold[order of magnitude speedup] for some models!
-- Improvements over traditional
-   - 10 hrs to 30 min; 20 min to 10 sec
+- Hardware acceleration giving .bold[order of magnitude speedup] in interpolation for systematics!
+   - does suffer some overhead
+- Noticeable impact for large and complex models
+   - hours to minutes for fits
 ]
 ]
 .kol-1-4.center[
