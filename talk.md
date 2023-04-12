@@ -211,7 +211,7 @@ $$
    - Used in [analyses and for reinterpretation](https://scikit-hep.org/pyhf/citations.html#use-citations) by phenomenology community, `SModelS` <br>(DOI: [10.1016/j.cpc.2021.107909](https://inspirehep.net/literature/1814793)), and `MadAnalysis 5` ([arXiv:2206.14870](https://inspirehep.net/literature/2103971))
    - Keen to .bold[make a bridge to CMS]!
    - 2022 [IRIS-HEP supported Fellow](https://iris-hep.org/fellows/peterridolfi.html) worked on conversion support to CMS Combine
-      - (See also [Krill's talk today](https://indico.cern.ch/event/1264029/#4-pyhf-combine))
+      - (See also [Kirill's talk today](https://indico.cern.ch/event/1264029/#4-pyhf-combine))
 ]
 
 ---
