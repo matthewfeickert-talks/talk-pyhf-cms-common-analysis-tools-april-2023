@@ -348,7 +348,7 @@ $$
 <br>
 - .bold[pyhf] focuses on the modeling (library not a framework)
 - Leverage the design of the .bold[Scikit-HEP ecosystem] and close communication between pyhf dev team and cabinetry lead dev .bold[Alexander Held]
-   - c.f. [Alexander's talk today](https://indico.cern.ch/event/1264029/#3-cabinetry)
+   - c.f. [Alexander's talk today](https://indico.cern.ch/event/1264029/contributions/5308066/)
 - .bold[cabinetry] designs & steers template profile likelihood fits
 - Uses pyhf as the inference engine
 - Provides common visualization for inference validation
