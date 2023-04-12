@@ -456,7 +456,7 @@ cabinetry.visualize.data_mc(postfit_model, data)
 .width-65[[![analysis-systems-scope](figures/ecosystem.png)](https://iris-hep.org/as.html)]
 ]
 - .large[Analysis Systems pipeline: deployable stack of experiment agnostic infrastructure]
-   - c.f. demonstration at [IRIS-HEP Analysis Grand Challenge Tools Workshop 2021](https://indico.cern.ch/event/1076231/contributions/4560405/)
+   - c.f. demonstration at [IRIS-HEP Analysis Grand Challenge Tools Workshop 2021](https://indico.cern.ch/event/1076231/contributions/4560405/) (.bold[[2023 AGC Workshop](https://indico.cern.ch/event/1260431/) May 3-5!])
 - .large[Accelerating fitting (reducing time to .bold[insight] (statistical inference)!)] (`pyhf` + `cabinetry`)
 - .large[An enabling technology for .bold[reinterpretation]] (`pyhf` + RECAST)
 
